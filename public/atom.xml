@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GVZBLOG</title>
+  
+  <subtitle>GVZwebsite</subtitle>
+  <link href="https://gvzgithub.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://gvzgithub.github.io/"/>
+  <updated>2024-08-13T13:42:21.177Z</updated>
+  <id>https://gvzgithub.github.io/</id>
+  
+  <author>
+    <name>Gavin Zhu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【转载】史上最全的Webstorm快捷键及技巧</title>
+    <link href="https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E7%9A%84webstorm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%8F%8A%E6%8A%80%E5%B7%A7/"/>
+    <id>https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E7%9A%84webstorm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%8F%8A%E6%8A%80%E5%B7%A7/</id>
+    <published>2024-08-13T13:10:57.484Z</published>
+    <updated>2024-08-13T13:42:21.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文地址：<a href="https://snippet.shenliyang.com/archives/47814.html">https://snippet.shenliyang.com/archives/47814.html</a><br>©Snippet 发布于2017年9月21日，已过时。</p><p>Webstorm是一款前端开发神器，此文介绍webstorm的快捷键和技巧分享。</p><p>所谓工欲善其事，必先利其器嘛，想着如果要提高开发效率，那掌握一些常用的快捷键应该是少不了的，所以把webstorm快捷键及技巧分享给大家。持续更新中</p><p>webstorm官方下载地址：<a href="http://www.jetbrains.com/webstorm/">http://www.jetbrains.com/webstorm/</a></p><p>快捷键大全<br>编辑类<br>【Ctrl + Space 】基本代码完成 （任何类、 方法或变量名称）<br>【Alt + Enter】 展示意图动作和快速修复<br>【Ctrl + P】显示调用方法内参数信息<br>【Ctrl + Q】 快速记录查找<br>【Ctrl + mouse】放在代码上面-显示简短的代码信息<br>【Ctrl + F1】在插入符号显示错误或警告的说明<br>【Alt + Insert】生成代码<br>【Ctrl + Alt + T】快速生成（if..else, try..catch, for, etc.）等<br>【Ctrl + J】插入Live模板<br>【Ctrl + &#x2F; 】行注释与取消行注释<br>【Ctrl + Shift + &#x2F; 】块注释与取消块注释<br>【Ctrl + W 】增加选择中代码块<br>【Ctrl + Shift + W 】减少当前所选内容代码块<br>【Alt + Q 】上下文信息<br>【Ctrl + Alt + L 】格式化代码<br>【Ctrl + Alt + I 】自动缩进的行数<br>【Tab &#x2F; Shift + Tab 】缩进&#x2F;取消缩进选定的行<br>【Ctrl + X , Shift + Delete】 剪切到剪贴板的当前行或者所选代码块<br>【Ctrl + C】Ctrl + 插入复制当前行或者所选代码块到剪贴板<br>【Ctrl + V】Shift + 从剪贴板插入粘贴<br>【Ctrl + Shift + V 】最近缓冲区粘贴<br>【Ctrl + D】复制当前行或者所选代码块<br>【Ctrl + Y】删除行<br>【Ctrl + Shift + J 】加入行<br>【Ctrl + enter 】拆分行<br>【shift + Enter 】 重新开始一行（无论光标在哪个位置）<br>【Ctrl + Shift + U 】切换选中词或所选代码块的大小写<br>【Ctrl + Shift +]】选中直到代码块的开始<br>【Ctrl + Shift +[】选择直到代码块的结束<br>【Ctrl + Delete】 删除光标右侧的词<br>【Ctrl + backspace】 删除光标左侧的词<br>【Ctrl + NumPad+】展开代码块<br>【Ctrl + NumPad-】折叠代码块<br>【Ctrl + Shift + NumPad+】展开所有代码块<br>【Ctrl + Shift + NumPad-】折叠所有代码块<br>【Ctrl + F4 】关闭当前标签页</p><p>同时编辑多行<br>【Alt + Click】 同时选中多行，同时编辑<br>【Shift + Ctrl + Alt + J】选择所有当前选中的词<br>【Alt + J】选择下一个相同的词<br>【Alt + Shift + J】取消所有选中的词<br>【Esc】取消选择所有选中的词或插入符号</p><p>运行类<br>【Alt + Shift + F10&#x2F;F9】 选择配置和运行&#x2F;调试<br>【Shift + F10&#x2F;F9】 运行&#x2F;调试<br>【Ctrl + Shift + F10&#x2F;F9】 运行&#x2F;调试上下文配置从编辑器<br>【Alt + Shift + R】 重新运行测试</p><p>调试类<br>【F8】不进入函数<br>【F7】 单步执行<br>【Shift + F7】 只能单步执行<br>【Shift + F8】跳出<br>【Alt + F9】 运行到光标处<br>【Alt + F8】 计算表达式的值<br>【F9】 重新开始<br>【Ctrl + f8】 切换断点<br>【Ctrl + Shift + F8】 查看断点</p><p>导航类<br>【Ctrl + N】跳转到指定类<br>【Ctrl + Shift + N】 通过文件名快速查找工程内的文件<br>【Ctrl + Alt + Shift + N】 通过一个字符查找函数位置<br>【Alt + Right】进入下一个编辑器选项<br>【Alt + Left】进入上一个编辑器选项<br>【f12】 进入上一个工具窗口<br>【esc】 从工具窗口进入编辑器<br>【Shift + Esc】 隐藏活动窗口<br>【Ctrl + Shift + F4】 关闭活动运行&#x2F;消息&#x2F;查找&#x2F;选项卡<br>【Ctrl + G】 跳转到指定行<br>【Ctrl + E】 弹出最近打开的文件列表<br>【Ctrl + Alt + Left】导航前进<br>【Ctrl + Alt + Right】导航回退<br>【Ctrl + Shift +Backspace】定位到最近编辑窗口<br>【Alt + F1】查找当前选中的代码或文件在其他界面模块的位置<br>【Ctrl + B&#x2F;Click】跳转到定义处<br>【Ctrl + 单击】转到声明<br>【Ctrl + Alt + B 】跳转方法实现处<br>【Ctrl + Shift + I】打开定义快速查找<br>【Ctrl + Shift + B 】跳转方法定义处<br>【Ctrl + U 】转到超级方法&#x2F;超级类<br>【Alt + Up&#x2F;Down】在方法间快速移动定位<br>【Ctrl +]&#x2F;[】移动到代码块结束&#x2F;启动<br>【Ctrl + f12】弹出文件结构<br>【Ctrl + H 】类型层次结构<br>【Ctrl + Alt + H】 调用层次结构<br>【F2&#x2F;Shift + F2】跳转到后一个&#x2F;前一个错误，在出错的语句之间进行跳转。<br>【F4&#x2F;Ctrl + Enter】 编辑源代码&#x2F;查看源代码<br>【Alt + home】 显示导航栏<br>【F11】切换标记<br>【Ctrl + F11】 采用记忆切换标记<br>【Ctrl + #[0-9]】跳转到带编号的标记<br>【Shift + F11 显示书签</p><p>VCS版本控制<br>【Alt + 反引号 (‘)】 ‘VCS’ 快速弹出<br>【Ctrl + K】提交项目到VCS<br>【Ctrl + T】 从VCS更新项目<br>【Alt + Shift + C】查看最近的更改</p><p>搜索&#x2F;替换<br>【Ctrl + F】 查找<br>【F3】 查找下一个<br>【Shift + F3】 查找上一个<br>【Ctrl + R】替换<br>【Ctrl + Shift + F】 在路径中找到<br>【Ctrl + Shift + R】 替换路径中的查找</p><p>搜索类<br>【Alt + f7】查找实例<br>【Ctrl + f7】在文件中查找实例<br>【Ctrl + Shift + f7】 在文件中高亮实例<br>【Ctrl + Alt + F7】显示实例</p><p>重构类<br>【F5】拷贝当前文件<br>【F6】移动当前文件<br>【Alt + delete】 安全删除<br>【Shift + F6】 重命名<br>【Ctrl + Alt + N】嵌入变量<br>【Ctrl + Alt + M】提取函数<br>【Ctrl + Alt + V】引入变量<br>【Ctrl + Alt + C】引入常量<br>【Ctrl + Alt + P】引入参数<br>【Ctrl + F6】改变方法名</p><p>常规类<br>【Ctrl + Shift +a】 查找当前<br>【双击shift】查找所有的（包括文件、命令等）<br>【Alt + #[0-9]】 打开相应的工具窗口<br>【Ctrl + Shift + f12】 键切换最大化编辑器<br>【Alt + Shift + F】 将添加到收藏夹<br>【Alt + Shift + I】 检查当前文件与当前配置文件<br>【Ctrl + 反引号 (‘)】快速切换当前计划<br>【Ctrl + Alt + S】 打开设置<br>【Ctrl + Tab】 切换选项卡和工具窗口</p><p>常用插件推荐<br>Key Promoter【学习快捷键神器】<br>鼠标完成某项操作时，会提示相应的快捷键。</p><p>activate-power-mode【装*神器】<br>Atom上的神器，安装之后可以在 window -&gt; activate-power-mode中关闭震动以及开启彩色模式。</p><p>Markdown<br>支持Markdown语法</p><p>CodeGlance<br>之前用过Sublime编辑器同学，强烈推荐这个，这个插件可以让 webstorm 也具有右侧展示当前文件中代码的缩略图。</p><p>常见问题<br>webstorm可以像sublime一样多行选择，比如在sublime中全选一个单词然后使用cmd+d，就可以往下选择一样的单词，然后进入多行模式吗？</p><p>逐个选中多个相同的词<br>sublime：Ctrl + D (Ctrl + K可以跳过一个)<br>webstrom：Ctrl + K ( Ctrl + Shift + K 可以回退一个)</p><p>同时选中所有相同的词<br>sublime：Alt + F3<br>webstrom：Ctrl + Shift + Alt + K</p><p>单击左键选择多行<br>sublime：按住Ctrl然后单击左键<br>webstrom：按住Alt然后单击左键</p><p>拖动选择多行<br>sublime：按住Ctrl + Shift + 鼠标右键 拖动<br>webstrom：按住Alt + 鼠标右键 拖动</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文地址：&lt;a href=&quot;https://snippet.shenliyang.com/archives/47814.html&quot;&gt;https://snippet.shenliyang.com/archives/47814.html&lt;/a&gt;&lt;br&gt;©Snippet 发布于2</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="转载" scheme="https://gvzgithub.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="工具" scheme="https://gvzgithub.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="软件" scheme="https://gvzgithub.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="JetBrains" scheme="https://gvzgithub.github.io/tags/JetBrains/"/>
+    
+    <category term="WebStorm" scheme="https://gvzgithub.github.io/tags/WebStorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】站在人工智能风口的Python程序员</title>
+    <link href="https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E7%AB%99%E5%9C%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A3%8E%E5%8F%A3%E7%9A%84python%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    <id>https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E7%AB%99%E5%9C%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A3%8E%E5%8F%A3%E7%9A%84python%E7%A8%8B%E5%BA%8F%E5%91%98/</id>
+    <published>2024-08-10T14:08:40.745Z</published>
+    <updated>2024-08-13T13:28:48.315Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文地址：<a href="https://snippet.shenliyang.com/archives/63096.html">https://snippet.shenliyang.com/archives/63096.html</a><br>©Snippet 发布于2017年8月25日，已过时。<br>（现在已经是AI时代2年了啊，看到这篇7年前的文章真是感慨万千）</p><p>2017年短短不到三个月的时间，国内AI获投项目已有36个，千万级别融资占据半数以上。</p><p>嗯，就是那么霸道。两会刚刚结束，“人工智能”首次被列入政府工作报告，随之而来的是人工智能板块领跑大盘涨势，无疑，这一切将刺激人工智能在多个领域的全面发展。</p><p>大量融资的风口企业，绝对会把钱拿到招揽人才。而现在最流行的人工智能技术栈就是 TensorFlow 和 PyTorch，使用它们就是一份 Python 编程开发工作。一时间，python程序员成了人才市场的“抢手货”，工资待遇也水涨船高了。口说无凭，我们去工作搜索引擎jobui.com找看。一看吓一跳，首先是待遇啊：</p><p>最高待遇不过万不出奇啊！这还只是广州的情况，估计在北上深三个城市里，两者的差距还要大得多。除了待遇，跑到风口行业写Python，分分钟就是人工智能科学家的光环上身啊，估计大家都要跑得比西方记者还快了。</p><p>乐了Python程序员，苦的就是公司是Python技术栈的传统IT业务的企业了。就别提一般的小企业，连豆瓣、知乎这样的都大受冲击了。豆瓣的洪强宁，也跑去创业做人工智能相关的应用了……</p><p>没有人能够对抗趋势，风口企业这么有钱，能做的就只能是避开它们的锋芒。我觉得Python技术栈的企业应该考虑新的技术选型了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文地址：&lt;a href=&quot;https://snippet.shenliyang.com/archives/63096.html&quot;&gt;https://snippet.shenliyang.com/archives/63096.html&lt;/a&gt;&lt;br&gt;©Snippet 发布于2</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="https://gvzgithub.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Python" scheme="https://gvzgithub.github.io/tags/Python/"/>
+    
+    <category term="程序员" scheme="https://gvzgithub.github.io/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="AI" scheme="https://gvzgithub.github.io/tags/AI/"/>
+    
+    <category term="转载" scheme="https://gvzgithub.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】JavaScript代码检查工具对比</title>
+    <link href="https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91javascript%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5%E5%B7%A5%E5%85%B7%E5%AF%B9%E6%AF%94/"/>
+    <id>https://gvzgithub.github.io/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91javascript%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5%E5%B7%A5%E5%85%B7%E5%AF%B9%E6%AF%94/</id>
+    <published>2024-08-10T14:07:32.630Z</published>
+    <updated>2024-08-13T13:28:45.974Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文地址：<a href="https://snippet.shenliyang.com/archives/26064.html">https://snippet.shenliyang.com/archives/26064.html</a><br>©Snippet 发布于2017年4月3日，已过时。</p><p>JavaScript代码校验工具能够让你在写代码时避免一些低级的错误。尽管我有很多年的开发经验，我仍然会犯一些语法错误并且忘记处理我的错误。一个好的校验工具或者格式化工具，可以让我避免这些错误，以免浪费我的时间。一个好的校验工具还能确保一个项目保持一个固定的代码风格。</p><p>有很多关于JavaScript的校验工具，你怎样选择其中的某一个呢？让我们一起来看看它们有什么样的特性以及优缺点。接下来我要介绍四种常用的选择：JSLint，JSHint，JSCS和ESLint。</p><p>Overview<br>这四个工具的基本用法都是类似的，它们定义了一套规则用来解析和报告js文件里面的问题。它们都可以通过npm来进行安装。可以通过命令行来调用它们，给命令行传递文件参数，也可以作为grunt这一类工具的插件被使用，或者可以集成到编辑器中。它们都支持使用注释作为配置。</p><p>以上就是它们所有的相似之处了，每一个工具都有优缺点，只是有些工具相比于其它工具更加有优势。</p><p>JSLint<br>JSLint是这四种校验工具中最为古老的。Douglas Crockford（译注:《JavaScript 语言精粹》的作者）在2002年创造了它，它是强制使用的，为了保留它所认为的JavaScript这门语言的精华部分。如果你认同他的观点，对你而言，JSLint将会是一个好的工具。安装完成马上即可使用。</p><p>JSLint的缺点是它是不可以进行配置和扩展的。你不能禁用它的某些特性，并且缺乏文档。它的官网并没有什么用处，例如，它缺少如果将这个工具整合到你的编辑器的任何信息。</p><p>优点：<br>配置规则都已经定好了，安装即可使用（如果你同意这些强制的规则的话）<br>缺点：<br>JSLint没有可配置文件，你无法对它的规则进行更改<br>配置规则的数量有限，有些规则无法禁用<br>不支持自定义规则<br>缺少文档<br>很难定位到哪条规则导致了错误<br>JSCSC<br>JSCS和以上两个都是不同的，如果不给它一个配置文件或者使用一套预设的规则，它将什么也不做不了，不过你可以从别的网站下载配置文件，所以这并不是什么大问题，并且它有很多的预设规则，比如说jQuery的代码风格的预设规则以及Google的代码风格的预设规则。</p><p>它有超过90种不同的规则，并且你可以通过插件创造自定义规则。JSCS也支持自定义输出报告，这使得其更容易与需要其以特定格式输入的工具集成。</p><p>JSCS是一个代码风格检查器，这意味着它只捕获与代码格式相关的问题，而不包含潜在的错误。因此，它比其他工具的灵活性更低，但是如果您需要强制执行特定的编码风格，那么JSCS就可以做的很好。</p><p>优点：<br>支持自定义输出报告，可以使其更容易和其它工具进行集成<br>如果您遵循现有的可用编码风格之一，预设和现成的配置文件可以轻松设置<br>在报告中，有一个标志包含在规则名之中，所以很容易找出是哪条规则导致了错误<br>可以利用自定义的插件进行拓展<br>缺点：<br>只检测到代码风格的违规，不检测潜在的错误，比如说未使用的变量或者变量的全局污染等<br>四个工具中性能最差的，但是这并不是一个典型用途的问题<br>ESLint<br>ESLint是这四个工具中最新的，它被设计为易于拓展的，具有大量的自定义规则，并且很容易通过插件的形式来安装。它输出简洁的报告，但是默认包含规则的名称，因此你始终知道是那条规则导致了错误的信息。</p><p>ESLint的文档多少有些混乱，规则的列表容易查找，并且按逻辑进行分类，但配置说明在某些地方有点混乱。然而，它提供了如何对编辑器进行集成，插件和示例的链接。</p><p>优点：<br>灵活：任何规则都可以切换使用，并且有些规则有额外的配置可以使用<br>可拓展性好，并且有很多可用的插件<br>易于理解的输出报告<br>包含一些其它工具所没有的规则，使得ESLint更容易检测出代码中潜在的错误<br>对ES6的支持性最好，是唯一支持JSX的工具<br>支持自定义输出报告<br>缺点：<br>需要一些配置<br>性能差，但这并不是主要的障碍<br>推荐<br>一个好的校验工具是捕捉问题非常重要的一步，但是它只能检测出它的规则许可范围之内的错误。对于更多简单明了的bug的捕捉，我建议使用单元测试，Code reviews也是也是不错的方式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文地址：&lt;a href=&quot;https://snippet.shenliyang.com/archives/26064.html&quot;&gt;https://snippet.shenliyang.com/archives/26064.html&lt;/a&gt;&lt;br&gt;©Snippet 发布于2</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="https://gvzgithub.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="转载" scheme="https://gvzgithub.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="JS" scheme="https://gvzgithub.github.io/tags/JS/"/>
+    
+    <category term="工具" scheme="https://gvzgithub.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="软件" scheme="https://gvzgithub.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用户协议</title>
+    <link href="https://gvzgithub.github.io/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/"/>
+    <id>https://gvzgithub.github.io/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/</id>
+    <published>2024-08-08T12:37:53.422Z</published>
+    <updated>2024-08-09T13:51:36.888Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新日期：2024&#x2F;8&#x2F;9<br>生效日期：2024&#x2F;8&#x2F;9</p><p>GVZ（以下简称“我们”）依据本协议为用户（以下简称“你”）提供GVZBLOG。本协议对你和我们均具有法律约束力。</p><h1 id="本服务的功能"><a href="#本服务的功能" class="headerlink" title="本服务的功能"></a>本服务的功能</h1><p>你可以使用本服务阅读博客。</p><h1 id="责任范围及限制"><a href="#责任范围及限制" class="headerlink" title="责任范围及限制"></a>责任范围及限制</h1><p>你使用本服务得到的结果仅供参考，实际情况以官方为准。</p><h1 id="隐私保护"><a href="#隐私保护" class="headerlink" title="隐私保护"></a>隐私保护</h1><p>我们重视对你隐私的保护，你的个人隐私信息将根据《隐私政策》受到保护与规范，详情请参阅《隐私政策》。</p><h1 id="其他条款"><a href="#其他条款" class="headerlink" title="其他条款"></a>其他条款</h1><p>本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。</p><p>本协议条款无论因何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;更新日期：2024&amp;#x2F;8&amp;#x2F;9&lt;br&gt;生效日期：2024&amp;#x2F;8&amp;#x2F;9&lt;/p&gt;
+&lt;p&gt;GVZ（以下简称“我们”）依据本协议为用户（以下简称“你”）提供GVZBLOG。本协议对你和我们均具有法律约束力。&lt;/p&gt;
+&lt;h1 id=&quot;本服务的功能&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="条款" scheme="https://gvzgithub.github.io/categories/%E6%9D%A1%E6%AC%BE/"/>
+    
+    
+    <category term="隐私" scheme="https://gvzgithub.github.io/tags/%E9%9A%90%E7%A7%81/"/>
+    
+    <category term="条款" scheme="https://gvzgithub.github.io/tags/%E6%9D%A1%E6%AC%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于这个网站&amp;使用指南</title>
+    <link href="https://gvzgithub.github.io/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <id>https://gvzgithub.github.io/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</id>
+    <published>2024-08-08T12:14:41.983Z</published>
+    <updated>2024-10-19T13:34:20.597Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>你好！我是Gavin Zhu(GVZ),一名普通的中国内地在读初中生<br>我会在这个小网站时不时写点好玩的&#x2F;不好玩的东西<br>对于博客最讨厌的事情：error:spawn failed<br>Github: <a href="https://github.com/gvzgithub">https://github.com/gvzgithub</a></p><h1 id="关于这个网站"><a href="#关于这个网站" class="headerlink" title="关于这个网站"></a>关于这个网站</h1><p>这个网站是一个简单的个人博客，有好玩的&#x2F;不好玩的东西。<br>服务器位于国外，所以本站无需通过官方ICP备案。本站目前已通过的第三方ICP备案：<a href="https://icp.dns163.cn/beian/ICP-2024100121.html">易AIA盟2024100121号</a>，<a href="https://icp.3v.hk/beian/20240126">酷AIA盟20240126号</a>，仍在申请更多备案中。备案只会显示于主页中。<br>服务器由 <a href="https://github.com/">Github Page</a>提供，网站框架由 <a href="https://hexo.io/zh-cn/">Hexo</a> 提供，网站主题由 <a href="https://github.com/shenliyang/hexo-theme-snippet">Shenliyang</a> 提供，网站图片托管服务由 <a href="https://www.imagehub.cc/">图仓</a>提供,网站评论功能由<a href="https://utteranc.es/">utteranc</a>提供，其他由<a href="https://github.com/gvzgithub">我</a>提供。<br>关于他们又是有谁提供的，可以访问他们的网站，点一点橙字&#x2F;蓝字，找一找即可。<br>目前项目文件夹大小：80Mib<br>你可以在必应搜索到这个网站哦！</p><h1 id="网站使用指南"><a href="#网站使用指南" class="headerlink" title="网站使用指南"></a>网站使用指南</h1><p>如果你在用rss阅读器，则这对你来说无效哦， <a href="https://gvzgithub.github.io/">点我前往网站</a><br>1.点击网站头图或上方头像或主页按钮可以返回首页；<br>2.把鼠标移到上方头像可以看到我的名字；<br>3.点击“时间轴”，可以通过时间轴查看历往文章；<br>4.右边搜索可以输入内容可以搜索站内文章，或进行谷歌搜索；<br>5.网站公告有时会公布东西；<br>6.社交一栏Git按钮可以前往我的Github主页，rss按钮前往复制rss订阅链接，用于导入到你的rss阅读器以及时接收我的新文章；<br>7.分类，归档，标签云都是对文章的归类，分别对主题，发布时间和内容；<br>8.友链以前往友链，网站下方一栏也算友链；<br>9.文章点击阅读全文查看；<br>10.文章末尾有评论功能，支持Markdown，先登录你的Github账号，写完可点击Preview预览，按Comment发送。</p><h1 id="网站历程"><a href="#网站历程" class="headerlink" title="网站历程"></a>网站历程</h1><h2 id="在此之前…"><a href="#在此之前…" class="headerlink" title="在此之前…"></a>在此之前…</h2><p>我在小学时就已经想建设一个属于我的个人博客，过了一段时间我认识了Github Page，就用纯html写了点小东西，当时甚至为此想学Python flask，几次尝试都以最后以删除仓库告终；</p><h2 id="2024"><a href="#2024" class="headerlink" title="2024"></a>2024</h2><p> 2月1日 我的公历生日，我认识了hexo框架，决定一定要建成我的个人网站；<br> 2月2日 在我妈的办公室，经过一个下午的捣鼓，终于建设好现在这个网站啦！<br> 2月6日 为了学习markdown，我写了网站的第一篇文章——Markdown简易教程（原名为test）；<br> 4月5日 分享了pycharm2023破解版；<br> 6月9日 添加网站隐私政策；<br> 8月9日 添加网站用户协议和rss订阅源，更新隐私政策，这篇文章也出现啦！<br> ……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h1&gt;&lt;p&gt;你好！我是Gavin Zhu(GVZ),一名普通的中国内地在读初中生&lt;br&gt;我会在这个小网站时不时写点好玩的&amp;#x2F;不好玩的东西</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="关于" scheme="https://gvzgithub.github.io/tags/%E5%85%B3%E4%BA%8E/"/>
+    
+    <category term="使用" scheme="https://gvzgithub.github.io/tags/%E4%BD%BF%E7%94%A8/"/>
+    
+    <category term="指南" scheme="https://gvzgithub.github.io/tags/%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="博客" scheme="https://gvzgithub.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="网站" scheme="https://gvzgithub.github.io/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="历史" scheme="https://gvzgithub.github.io/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>隐私政策</title>
+    <link href="https://gvzgithub.github.io/%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96/"/>
+    <id>https://gvzgithub.github.io/%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96/</id>
+    <published>2024-06-29T11:39:28.443Z</published>
+    <updated>2024-08-09T13:51:34.362Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新日期：2024&#x2F;8&#x2F;9<br>生效日期：2024&#x2F;8&#x2F;9</p><h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>GVZBLOG 是一款由 GVZ （以下简称“我们”）提供的产品。 您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。 本《隐私政策》与您所使用的 GVZBLOG 服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。</p><p>您使用或继续使用我们的服务，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。</p><p>如对本《隐私政策》或相关事宜有任何问题，请通过 <a href="mailto:&#103;&#x76;&#122;&#x6d;&#97;&#105;&#108;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#103;&#x76;&#122;&#x6d;&#97;&#105;&#108;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a> 与我们联系。</p><h1 id="我们收集的信息"><a href="#我们收集的信息" class="headerlink" title="我们收集的信息"></a>我们收集的信息</h1><p>我们或我们的第三方合作伙伴提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。</p><h1 id="信息的存储"><a href="#信息的存储" class="headerlink" title="信息的存储"></a>信息的存储</h1><h2 id="信息存储的方式和期限"><a href="#信息存储的方式和期限" class="headerlink" title="信息存储的方式和期限"></a>信息存储的方式和期限</h2><p>我们会通过安全的方式存储您的信息，包括本地存储（例如利用APP进行数据缓存）、数据库和服务器日志。<br>一般情况下，我们只会在为实现服务目的所必需的时间内或法律法规规定的条件下存储您的个人信息。</p><h2 id="信息存储的地域"><a href="#信息存储的地域" class="headerlink" title="信息存储的地域"></a>信息存储的地域</h2><p>我们会按照法律法规规定，将境内收集的用户个人信息存储于中国境内。<br>目前我们不会跨境传输或存储您的个人信息。将来如需跨境传输或存储的，我们会向您告知信息出境的目的、接收方、安全保证措施和安全风险，并征得您的同意。</p><h2 id="产品或服务停止运营时的通知"><a href="#产品或服务停止运营时的通知" class="headerlink" title="产品或服务停止运营时的通知"></a>产品或服务停止运营时的通知</h2><p>当我们的产品或服务发生停止运营的情况时，我们将以推送通知、公告等形式通知您，并在合理期限内删除您的个人信息或进行匿名化处理，法律法规另有规定的除外。</p><h1 id="信息安全"><a href="#信息安全" class="headerlink" title="信息安全"></a>信息安全</h1><p>我们使用各种安全技术和程序，以防信息的丢失、不当使用、未经授权阅览或披露。例如，在某些服务中，我们将利用加密技术（例如SSL）来保护您提供的个人信息。但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题。</p><h1 id="我们如何使用信息"><a href="#我们如何使用信息" class="headerlink" title="我们如何使用信息"></a>我们如何使用信息</h1><p>我们可能将在向您提供服务的过程之中所收集的信息将向您提供服务；<br>在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性；<br>帮助我们设计新服务，改善我们现有服务；<br>使我们更加了解您如何接入和使用我们的服务，从而针对性地回应您的个性化需求，例如语言设定、位置设定、个性化的帮助服务和指示，或对您和其他用户作出其他方面的回应；<br>向您提供与您更加相关的广告以替代普遍投放的广告；<br>评估我们服务中的广告和其他促销及推广活动的效果，并加以改善；<br>软件认证或管理软件升级；<br>让您参与有关我们产品和服务的调查。</p><h1 id="信息共享"><a href="#信息共享" class="headerlink" title="信息共享"></a>信息共享</h1><p>目前，我们不会主动共享或转让您的个人信息至第三方，如存在其他共享或转让您的个人信息或您需要我们将您的个人信息共享或转让至第三方情形时，我们会直接或确认第三方征得您对上述行为的明示同意。</p><p>为了投放广告，评估、优化广告投放效果等目的，我们需要向广告主及其代理商等第三方合作伙伴共享您的部分数据，要求其严格遵守我们关于数据隐私保护的措施与要求，包括但不限于根据数据保护协议、承诺书及相关数据处理政策进行处理，避免识别出个人身份，保障隐私安全。</p><p>我们不会向合作伙伴分享可用于识别您个人身份的信息（例如您的姓名或电子邮件地址），除非您明确授权。</p><p>我们不会对外公开披露所收集的个人信息，如必须公开披露时，我们会向您告知此次公开披露的目的、披露信息的类型及可能涉及的敏感信息，并征得您的明示同意。</p><p>随着我们业务的持续发展，我们有可能进行合并、收购、资产转让等交易，我们将告知您相关情形，按照法律法规及不低于本《隐私政策》所要求的标准继续保护或要求新的控制者继续保护您的个人信息。</p><p>另外，根据相关法律法规及国家标准，以下情形中，我们可能会共享、转让、公开披露个人信息无需事先征得您的授权同意：</p><p>与国家安全、国防安全直接相关的；<br>与公共安全、公共卫生、重大公共利益直接相关的；<br>犯罪侦查、起诉、审判和判决执行等直接相关的；<br>出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；<br>个人信息主体自行向社会公众公开个人信息的；<br>从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</p><h1 id="您的权利"><a href="#您的权利" class="headerlink" title="您的权利"></a>您的权利</h1><p>在您使用我们的服务期间，我们可能会视产品具体情况为您提供相应的操作设置，以便您可以查询、删除、更正或撤回您的相关个人信息，您可参考相应的具体指引进行操作。此外，我们还设置了投诉举报渠道，您的意见将会得到及时的处理。如果您无法通过上述途径和方式行使您的个人信息主体权利，您可以通过本《隐私政策》中提供的联系方式提出您的请求，我们会按照法律法规的规定予以反馈。</p><h1 id="变更"><a href="#变更" class="headerlink" title="变更"></a>变更</h1><p>我们可能适时修订本《隐私政策》的条款。当变更发生时，我们会在版本更新时向您提示新的《隐私政策》，并向您说明生效日期。请您仔细阅读变更后的《隐私政策》内容，若您继续使用我们的服务，即表示您同意我们按照更新后的《隐私政策》处理您的个人信息。</p><h1 id="未成年人保护"><a href="#未成年人保护" class="headerlink" title="未成年人保护"></a>未成年人保护</h1><p>我们鼓励父母或监护人指导未满十八岁的未成年人使用我们的服务。我们建议未成年人鼓励他们的父母或监护人阅读本《隐私政策》，并建议未成年人在提交的个人信息之前寻求父母或监护人的同意和指导。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;更新日期：2024&amp;#x2F;8&amp;#x2F;9&lt;br&gt;生效日期：2024&amp;#x2F;8&amp;#x2F;9&lt;/p&gt;
+&lt;h1 id=&quot;导言&quot;&gt;&lt;a href=&quot;#导言&quot; class=&quot;headerlink&quot; title=&quot;导言&quot;&gt;&lt;/a&gt;导言&lt;/h1&gt;&lt;p&gt;GVZBLOG 是一款由</summary>
+      
+    
+    
+    
+    <category term="条款" scheme="https://gvzgithub.github.io/categories/%E6%9D%A1%E6%AC%BE/"/>
+    
+    
+    <category term="隐私" scheme="https://gvzgithub.github.io/tags/%E9%9A%90%E7%A7%81/"/>
+    
+    <category term="条款" scheme="https://gvzgithub.github.io/tags/%E6%9D%A1%E6%AC%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装Pycharm教程（已破解）</title>
+    <link href="https://gvzgithub.github.io/%E5%AE%89%E8%A3%85pycharm%E6%95%99%E7%A8%8B%EF%BC%88%E5%B7%B2%E7%A0%B4%E8%A7%A3%EF%BC%89/"/>
+    <id>https://gvzgithub.github.io/%E5%AE%89%E8%A3%85pycharm%E6%95%99%E7%A8%8B%EF%BC%88%E5%B7%B2%E7%A0%B4%E8%A7%A3%EF%BC%89/</id>
+    <published>2024-04-05T12:24:39.738Z</published>
+    <updated>2024-08-13T13:43:09.384Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安装地址及要求"><a href="#安装地址及要求" class="headerlink" title="安装地址及要求"></a>安装地址及要求</h1><p>（20240614新增）本文章待更新……<br><a href="https://www.alipan.com/s/pNdEb39hJvm">点我用阿里云盘下载</a><br>提取码：5zn6<br>解压密码：gvz<br>需要win10及以上的amd64位系统才能用<br>请在电脑打开本文章下载。另外本文章不提供更新<br>请安装好阿里云盘客户端</p><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>1.下载自解压程序后解压。</p><p>2.打开解压后的文件夹，鼠标右击需要安装的软件【这里假设你安装ideaIU-2023.1】选择【以管理员身份运行】。</p><p>3.点击【Next】。</p><p>4.修改路径地址中的首字符C可更改安装位置（建议安装除C盘之外的其他磁盘），点击【Next】。</p><p>5.勾选所有项目，点击【Next】。</p><p>6.点击【Install】。</p><p>7.等软件安装。</p><p>8.点击【Finish】。</p><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p>9.打开安装包解压后的【IntelliJ IDEA2023】文件夹，鼠标右击【Crack】选择【解压到当前文件夹】。</p><p>10.双击解压出来的【安装】。</p><p>11.点击【确定】。</p><p>12.出现success时点击【确定】。</p><p>13.在桌面双击【IntelliJ IDEA 2023.1】图标启动软件。</p><p>14.勾选【I confirm that I have read and accept the terms of this User Agreement】，再点击【Continue】。</p><p>15.点击【Don’t Send】。</p><p>16.弹出的Licenses框选择【Activation code】（不要关闭该界面继续后面的步骤）。</p><p>17.打开安装包解压后的【IntelliJ IDEA2023】文件夹，将原Crack文件夹的【激活码】拖到软件界面。</p><p>18.点击【Activate】。</p><p>19.点击【Continue】。</p><h2 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h2><p>20.①点击【Plugins】<br>②输入【Chinese】后在键盘上按【Enter】键<br>③点击“Chinese（simplified） Language Pack&#x2F;中文语言包”后的【Install】。</p><p>21.等待安装完毕……</p><p>22.点击【Restart IDE】。</p><p>23.点击【Restart】。</p><p>24.安装成功！</p><h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>禁止更新，否则软件无法运行！！！<br>有问题联系企鹅1039424158</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;安装地址及要求&quot;&gt;&lt;a href=&quot;#安装地址及要求&quot; class=&quot;headerlink&quot; title=&quot;安装地址及要求&quot;&gt;&lt;/a&gt;安装地址及要求&lt;/h1&gt;&lt;p&gt;（20240614新增）本文章待更新……&lt;br&gt;&lt;a href=&quot;https://www.alipa</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="https://gvzgithub.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="工具" scheme="https://gvzgithub.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="JetBrains" scheme="https://gvzgithub.github.io/tags/JetBrains/"/>
+    
+    <category term="Pycharm" scheme="https://gvzgithub.github.io/tags/Pycharm/"/>
+    
+    <category term="安装" scheme="https://gvzgithub.github.io/tags/%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown简易教程</title>
+    <link href="https://gvzgithub.github.io/markdown%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/"/>
+    <id>https://gvzgithub.github.io/markdown%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/</id>
+    <published>2024-02-06T09:10:05.006Z</published>
+    <updated>2024-07-01T12:06:22.957Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br></pre></td></tr></table></figure><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 二级标题</span></span><br></pre></td></tr></table></figure><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">### 三级标题</span></span><br></pre></td></tr></table></figure><p>标题：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: markdown</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>直接打字就是普通的文章文字。建立超链接：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[bilibili](https://space.bilibili.com/537935205)</span><br></pre></td></tr></table></figure><p>效果：<a href="https://space.bilibili.com/537935205">bilibili</a><br>演示代码用：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">``` bash</span><br></pre></td></tr></table></figure><pre><code>see more at: [markdown官方教程](https://markdown.com.cn/) </code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://gvzgithub.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Markdown" scheme="https://gvzgithub.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
